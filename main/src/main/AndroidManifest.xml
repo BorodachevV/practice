@@ -9,9 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Draft">
         <activity
-            android:name=".MainActivity2"
+            android:name=".CounterActivity"
             android:exported="true"
-            android:label="@string/title_activity_main2"
+            android:label="Counter App"
             android:theme="@style/Theme.Draft">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,14 +20,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
